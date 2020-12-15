@@ -1,0 +1,813 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/santa03.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5rem;
+  font-family: "Lobster", cursive;
+  font-weight: 450;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+a {
+  color: #c73e3a;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1b813e;
+}
+
+/* specific divs */
+.page-wrapper {
+  font-family: "M PLUS 1p", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* section ------------------------------------------------------------------------------ */
+#zen-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner {
+  color: #840c0c;
+  margin-top: 3rem;
+  transition: 0.5s;
+}
+
+#banner h1 {
+  font-size: 4rem;
+}
+
+#banner h2 {
+  font-size: 2rem;
+}
+
+/* zen-summary */
+#zen-summary {
+  height: 350px;
+  width: 500px;
+  color: #884c3a;
+  background-color: rgba(247, 194, 66, 0.6);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+/* zen-preamble */
+#zen-preamble {
+  height: 850px;
+  width: 500px;
+  color: #d0104c;
+  background-color: rgba(220, 159, 180, 0.7);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+/* zen-supporting ----------------------------------------------------------------------- */
+#zen-supporting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#zen-explanation {
+  height: 1050px;
+  width: 500px;
+  color: #0b346e;
+  background-color: rgba(129, 199, 212, 0.7);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+#zen-participation {
+  height: 1200px;
+  width: 500px;
+  color: #6a4028;
+  background-color: rgba(247, 145, 97, 0.8);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+#zen-benefits {
+  height: 510px;
+  width: 500px;
+  color: #4a225d;
+  background-color: rgba(152, 109, 178, 0.8);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+#zen-requirements {
+  height: 2100px;
+  width: 500px;
+  color: #f5f1ef;
+  background-color: rgba(201, 40, 37, 0.8);
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+#zen-requirements a {
+  color: #0f5226;
+  font-weight: bolder;
+}
+
+#zen-requirements a:hover {
+  color: #640c0c;
+}
+
+/* footer ----------------------------------------------------------------------------- */
+
+#footer {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#footer a {
+  margin-left: 15px;
+}
+
+#footer a:hover {
+  transform: scale(1.2);
+}
+
+.zen-validate-html {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../images/html.png);
+  background-size: 100%;
+}
+
+.zen-validate-css {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../images/css.png);
+  background-size: 100%;
+}
+
+.zen-license {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../images/license.png);
+  background-size: 100%;
+}
+
+.zen-accessibility {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../images/web-site.png);
+  background-size: 100%;
+}
+
+.zen-github {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../images/github.png);
+  background-size: 100%;
+}
+
+/* sidebar ----------------------------------------------------------------------------- */
+#wrapper {
+  width: 100%;
+  /* background: #373C38; */
+  background: url(../images/sidebar_sm.png) no-repeat center/cover;
+}
+
+#sidebar {
+  color: #fcfaf2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+#sidebar li {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+#design-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#design-archives {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#zen-resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* extra --------------------------------------------------------------------------------- */
+/* snow */
+#particles-js {
+  display: none;
+}
+
+/* media query -------------------------------------------------------------------------- */
+@media all and (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .page-wrapper {
+    height: 3900px;
+    background: url(../images/bg-9.jpg) no-repeat center;
+  }
+
+  /* section ----------------------------------------------------------------- */
+  #banner {
+    position: absolute;
+    top: 50%;
+    margin-top: 0rem;
+    z-index: 3;
+  }
+
+  #banner h1 {
+    font-size: 8rem;
+  }
+
+  #banner h2 {
+    font-size: 5rem;
+  }
+
+  #zen-summary {
+    height: 420px;
+    width: 300px;
+    background: url(../images/bauble-4.png) no-repeat center/cover;
+    transform: rotate(35deg);
+    margin-top: 3rem;
+    position: absolute;
+    top: 131%;
+    left: 32%;
+    animation: summary 1.5s ease-out infinite;
+    z-index: 1;
+  }
+
+  @keyframes summary {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 20px rgba(247, 194, 66, 0.6));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 0px rgba(247, 194, 66, 0.6));
+    }
+  }
+
+  #zen-summary p {
+    font-size: 1rem;
+    width: 80%;
+    position: absolute;
+    top: 44%;
+    left: 6%;
+    color: #884c3a;
+    z-index: 1;
+    transform: rotate(-35deg);
+    text-align: center;
+  }
+
+  div#zen-summary > :nth-child(2) {
+    width: 78%;
+    position: absolute;
+    top: 69%;
+    left: 25%;
+  }
+
+  #zen-preamble {
+    height: 650px;
+    width: 480px;
+    background: url(../images/bauble-2.png) no-repeat center/cover;
+    transform: rotate(-40deg);
+    text-align: center;
+    object-fit: cover;
+    color: #d0104c;
+    position: absolute;
+    top: 142%;
+    left: 52%;
+    animation: preamble 1.5s ease-out infinite;
+    animation-delay: 1s;
+    z-index: 1;
+  }
+
+  @keyframes preamble {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 20px rgba(220, 159, 180, 0.7));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 0px rgba(220, 159, 180, 0.7));
+    }
+  }
+
+  #zen-preamble h3 {
+    width: 80%;
+    transform: rotate(40deg);
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    text-align: left;
+  }
+
+  #zen-preamble p {
+    width: 80%;
+    transform: rotate(40deg);
+    position: absolute;
+    top: 48%;
+    left: 19%;
+  }
+
+  div#zen-preamble > :nth-child(2) {
+    width: 87%;
+    position: absolute;
+    top: 64%;
+    left: 2%;
+  }
+
+  div#zen-preamble > :nth-child(3) {
+    width: 65%;
+    position: absolute;
+    top: 73%;
+    left: 0%;
+  }
+
+  /* zen-supporting ---------------------------------------------------------- */
+  #zen-supporting {
+    position: relative;
+  }
+
+  #zen-explanation {
+    color: #0b346e;
+    height: 846px;
+    width: 758px;
+    background: url(../images/bauble-3.png) no-repeat center/cover;
+    transform: rotate(40deg);
+    position: absolute;
+    top: 52%;
+    left: 7%;
+    animation: explanation 1.5s ease-out infinite;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes explanation {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 25px rgba(129, 199, 212, 0.7));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 0px rgba(129, 199, 212, 0.7));
+    }
+  }
+
+  #zen-explanation h3 {
+    width: 80%;
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    transform: rotate(-40deg);
+    text-align: left;
+  }
+
+  #zen-explanation p {
+    width: 52%;
+    position: absolute;
+    top: 42%;
+    left: 19%;
+    transform: rotate(-40deg);
+    text-align: center;
+  }
+
+  div#zen-explanation > :nth-child(2) {
+    width: 78%;
+    position: absolute;
+    top: 63%;
+    left: 16%;
+  }
+
+  #zen-participation {
+    color: #6a4028;
+    height: 830px;
+    width: 600px;
+    background: url(../images/bauble-7.png) no-repeat center/cover;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: 78%;
+    right: 10%;
+    animation: participation 2s ease-out infinite;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes participation {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 20px rgba(247, 145, 97, 0.8));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 0px rgba(247, 145, 97, 0.8));
+    }
+  }
+
+  #zen-participation h3 {
+    width: 80%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: rotate(35deg);
+    text-align: left;
+  }
+
+  #zen-participation p {
+    width: 75%;
+    position: absolute;
+    top: 42%;
+    left: 23%;
+    transform: rotate(35deg);
+    text-align: center;
+  }
+
+  div#zen-participation > :nth-child(2) {
+    width: 85%;
+    position: absolute;
+    top: 56%;
+    left: 0%;
+  }
+
+  div#zen-participation > :nth-child(3) {
+    width: 65%;
+    position: absolute;
+    top: 74%;
+    left: 5%;
+  }
+
+  #zen-benefits {
+    height: 482px;
+    width: 354px;
+    background: url(../images/bauble-1.png) no-repeat center/cover;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 123%;
+    left: 10%;
+    animation: benefits 1.8s ease-out infinite;
+  }
+
+  @keyframes benefits {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 20px rgba(152, 109, 178, 0.8));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 0px rgba(152, 109, 178, 0.8));
+    }
+  }
+
+  #zen-benefits h3 {
+    width: 80%;
+    position: absolute;
+    top: 27%;
+    left: 2%;
+    color: #4a225d;
+    transform: rotate(-45deg);
+    text-align: left;
+  }
+
+  #zen-benefits p {
+    width: 80%;
+    position: absolute;
+    top: 44%;
+    left: 12%;
+    color: #4a225d;
+    z-index: 1;
+    transform: rotate(-45deg);
+    text-align: center;
+  }
+
+  #zen-requirements {
+    color: #fcfaf2;
+    height: 1200px;
+    width: 1200px;
+    background: url(../images/santa-1.png) no-repeat center/cover;
+    position: relative;
+    top: 125%;
+    left: -3%;
+  }
+
+  #zen-requirements h3 {
+    position: absolute;
+    top: 5%;
+    left: 52%;
+    z-index: 1;
+    text-align: left;
+  }
+
+  #zen-requirements p {
+    width: 39%;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    z-index: 1;
+    text-align: center;
+  }
+
+  div#zen-requirements > :nth-child(2) {
+    width: 54%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+  }
+
+  div#zen-requirements > :nth-child(3) {
+    width: 65%;
+    position: absolute;
+    top: 26%;
+    left: 25%;
+  }
+
+  div#zen-requirements > :nth-child(4) {
+    width: 48%;
+    position: absolute;
+    top: 38%;
+    left: 42%;
+  }
+
+  div#zen-requirements > :nth-child(5) {
+    width: 35%;
+    position: absolute;
+    top: 47%;
+    left: 49%;
+  }
+
+  #zen-requirements a {
+    /* color:#E83015 ; */
+    color: #ecb88a;
+    font-weight: bolder;
+  }
+
+  #zen-requirements a:hover {
+    /* color:#c57b70; */
+    color: #640c0c;
+  }
+
+  #footer {
+    position: absolute;
+    top: 229%;
+    margin: 0 auto;
+  }
+
+  /* order ------------- */
+  .sidebar {
+    order: 1;
+  }
+
+  .intro {
+    order: 2;
+  }
+
+  .main {
+    order: 3;
+  }
+
+  /* sidebar ---------------------------------------------------------------- */
+  @keyframes move {
+    form {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0px, 10px);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+
+  #sidebar {
+    position: relative;
+  }
+
+  #sidebar li {
+    font-size: 1.3rem;
+  }
+
+  #sidebar a {
+    text-decoration: none;
+    color: #f2d1af;
+    font-weight: bold;
+  }
+
+  #sidebar a:hover {
+    color: #fcfaf2;
+  }
+
+  #wrapper {
+    display: flex;
+    background: none;
+    height: 100vh;
+  }
+
+  #design-selection {
+    width: 30%;
+    background: url(../images/sidebar_1.png) no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    color: white;
+    position: relative;
+    top: -2%;
+    animation: move 5s infinite;
+  }
+
+  #design-selection h3 {
+    position: absolute;
+    top: 41%;
+    left: 30%;
+  }
+
+  #design-selection nav {
+    width: 78%;
+    position: absolute;
+    top: 47%;
+    left: 6%;
+    text-align: center;
+  }
+
+  #design-archives {
+    width: 30%;
+    background: url(../images/sidebar_2.png) no-repeat;
+    background-position-y: -350px;
+    background-size: 65%;
+    color: white;
+    position: relative;
+    top: -8%;
+    animation: move 3s infinite;
+  }
+
+  #design-archives h3 {
+    position: absolute;
+    top: 31%;
+    left: 20%;
+  }
+
+  #design-archives nav {
+    width: 50%;
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #design-archives a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  #design-archives a:hover {
+    color: #f2d1af;
+  }
+
+  #zen-resources {
+    width: 40%;
+    background: url(../images/sidebar_3.png) no-repeat center;
+    background-position-x: 300px;
+    background-position-y: -400px;
+    background-size: 55%;
+    color: white;
+    position: relative;
+    top: -3%;
+    animation: move 6s infinite;
+  }
+
+  #zen-resources h3 {
+    position: absolute;
+    top: 42%;
+    left: 57%;
+  }
+
+  #zen-resources ul {
+    width: 30%;
+    position: absolute;
+    top: 48%;
+    left: 46%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* extra ----------------------------------------------------------------- */
+  /* snow */
+  #particles-js {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3900px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .extra2 {
+    width: 244px;
+    height: 544px;
+    background: url(../images/sidebar_4.png) no-repeat center/cover;
+    position: absolute;
+    left: 56.5%;
+    top: -20%;
+    animation: move_2 10s infinite;
+  }
+
+  @keyframes move_2 {
+    form {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+      transform: translate(0, 25px) rotate(3deg);
+    }
+    50% {
+      transform: translate(0, 15px) rotate(0deg);
+    }
+    75% {
+      transform: translate(0, 25px) rotate(-3deg);
+    }
+    to {
+      transform: translate(0, 0) rotate(0deg);
+    }
+  }
+}
